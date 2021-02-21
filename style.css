@@ -878,7 +878,7 @@ h2 .text-center {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (evice-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (evice-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -902,10 +902,7 @@ h2 .text-center {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -914,8 +911,6 @@ h2 .text-center {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
